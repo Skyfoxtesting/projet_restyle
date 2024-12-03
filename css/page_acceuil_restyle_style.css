@@ -2,7 +2,7 @@ body {
     font-family: "Mulish", sans-serif;
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: rgba(204, 204, 204, 0.878);
   }
   
   /** NAVBAR **/
@@ -18,10 +18,12 @@ body {
   
   .nav-link {
     font-family: "Raleway", serif;
+    color: black;
   }
   
   .nav-link:hover {
     font-weight: 700;
+    color: black;
   }
   
   .actioncolor:hover {
@@ -89,27 +91,38 @@ body {
     color:white;
   }
 
-  .description{
-    font-family: "Raleway", serif;
+  .image_annonce_1{
+    display: flex;
+    margin: auto;
   }
 
-  .annonce_1{
-    background-image: url(../img/black-friday-ivan-samkov.jpg);
-    background-size: cover;
-    background-position: top center;
+  .image_annonce_2{
+    display: flex;
+    margin: auto;
+  }
+
+  .nom_annonces{
+    font-family: Mulish, sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    background-color: rgba(204, 204, 204, 0.603);
+    color: white;
+
   }
 
   .description{
     font-family: Raleway, sans-serif;
     text-align: center;
-    font-size: 3rem;
+    font-size: 1.5rem;
     color:white;
   }
 
-  .titre{
+  .titre_section{
     font-family: Raleway, sans-serif;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
+    background-color: rgba(204, 204, 204, 0.603)!important;
+    color:black;
   }
 
   .arriere_plan{
@@ -123,7 +136,6 @@ body {
 
   .font_noir{
     background-color: rgba(0, 0, 0, 0.6);
-    margin-bottom: 2rem;
   }
 
   .pseudo{
