@@ -1,8 +1,8 @@
 body {
     font-family: "Mulish", sans-serif;
+    background-color: rgba(204, 204, 204, 0.815); ;
     margin: 0;
     padding: 0;
-    background-color: rgba(204, 204, 204, 0.878);
   }
   
   /** NAVBAR **/
@@ -68,15 +68,37 @@ body {
   }
   
   /** FIN BOUTON CONNEXION ***/
-  @media (max-width: 992px) {
-    .trait {
-      display: none;
-    }
-    .btncnx {
-      width: 100%;
-    }
+
+  /*==================================Les annonces====================================*/
+
+  .image_annonce_1{
+    display: flex;
+    margin: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
+  .nom_annonces{
+    font-family: Mulish, sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 2rem; 
+    padding-bottom: 2rem;
+    background-color: rgba(204, 204, 204, 0.603);
+    color: white;
+
+  }
+
+/*==================================Les descriptions====================================*/
+
+  .description{
+    font-family: Raleway, sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color:white;
+  }
+
+  /*==================================Les titres====================================*/
   h1{
     font-family: Mulish, sans-serif;
     font-size: 3rem;
@@ -91,38 +113,16 @@ body {
     color:white;
   }
 
-  .image_annonce_1{
-    display: flex;
-    margin: auto;
-  }
-
-  .image_annonce_2{
-    display: flex;
-    margin: auto;
-  }
-
-  .nom_annonces{
-    font-family: Mulish, sans-serif;
-    text-align: center;
-    font-size: 2.5rem;
-    background-color: rgba(204, 204, 204, 0.603);
-    color: white;
-
-  }
-
-  .description{
-    font-family: Raleway, sans-serif;
-    text-align: center;
-    font-size: 1.5rem;
-    color:white;
-  }
 
   .titre_section{
     font-family: Raleway, sans-serif;
     text-align: center;
     font-size: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     background-color: rgba(204, 204, 204, 0.603)!important;
     color:black;
+    margin: 0;
   }
 
   .arriere_plan{
@@ -134,16 +134,8 @@ body {
     
   }
 
+
   .font_noir{
     background-color: rgba(0, 0, 0, 0.6);
   }
 
-  .pseudo{
-    color:rgba(0,0,0,0.5);
-    
-  }
-
-  .centerBtn {
-    display: flex;
-    margin: auto;
-  }
