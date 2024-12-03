@@ -1,0 +1,137 @@
+body {
+    font-family: "Mulish", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+  
+  /** NAVBAR **/
+  
+  .navbar-custom {
+    background-color: rgba(255, 255, 255, 0.879) !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 0;
+    width: 100%; /* Prend toute la largeur */
+    z-index: 1000; /* S'assure que la navbar est au-dessus du contenu */
+  }
+  
+  .nav-link {
+    font-family: "Raleway", serif;
+  }
+  
+  .nav-link:hover {
+    font-weight: 700;
+  }
+  
+  .actioncolor:hover {
+    background-color: rgb(124, 17, 17);
+  }
+  
+  .horrorcolor:hover {
+    background-color: rgb(255, 165, 0);
+  }
+  
+  .comediecolor:hover {
+    background-color: yellow;
+    color: black !important;
+  }
+  
+  .scificolor:hover {
+    background-color: #02ec8e;
+    color: black !important;
+  }
+  
+  .dramacolor:hover {
+    background-color: rgb(70, 159, 14);
+  }
+  
+  .romancecolor:hover {
+    background-color: rgb(39, 76, 200);
+  }
+  
+  /** BOUTON CONNEXION **/
+  .btncnx {
+    font-family: "Raleway", serif;
+    background-color: white;
+    border-width: 5px;
+    border-color: rgba(70, 159, 14, 0.893);
+    color: rgba(70, 159, 14, 5);
+    font-weight: 700;
+  }
+  
+  .btncnx:hover {
+    background-color: rgb(70, 159, 14);
+    border-color: rgb(70, 159, 14);
+  }
+  
+  /** FIN BOUTON CONNEXION ***/
+  @media (max-width: 992px) {
+    .trait {
+      display: none;
+    }
+    .btncnx {
+      width: 100%;
+    }
+  }
+
+  h1{
+    font-family: Mulish, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color:white;
+  }
+
+  .titre{
+    font-family: Mulish, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color:white;
+  }
+
+  .description{
+    font-family: "Raleway", serif;
+  }
+
+  .annonce_1{
+    background-image: url(../img/black-friday-ivan-samkov.jpg);
+    background-size: cover;
+    background-position: top center;
+  }
+
+  .description{
+    font-family: Raleway, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    color:white;
+  }
+
+  .titre{
+    font-family: Raleway, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .arriere_plan{
+    background-image: url(../img/image_fond_vetement.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
+    height: 100vh;
+    
+  }
+
+  .font_noir{
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 2rem;
+  }
+
+  .pseudo{
+    color:rgba(0,0,0,0.5);
+    
+  }
+
+  .centerBtn {
+    display: flex;
+    margin: auto;
+  }
