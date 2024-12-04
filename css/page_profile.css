@@ -1,0 +1,9 @@
+.img_profile{
+    border-radius: 100%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 10rem;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
