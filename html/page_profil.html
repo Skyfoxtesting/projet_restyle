@@ -261,7 +261,9 @@
         text-align: center;
         display: flex;
         justify-content: center;
-        margin: auto;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 5rem;
         width: 70% !important;
         border-width: initial;
         --bs-border-color: #00000045;
@@ -273,7 +275,122 @@
 
   <section class="nom_annonces">
     <h2 class="historique">Votre Historique</h2>
+    <!-- Catégorie 1-->
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+          <div class="col">
+            <div
+              class="card h-100"
+              style="box-shadow: 0px 8px 12px 1px rgba(0, 0, 0, 0.6) !important"
+            >
+              <img
+                src="../img/clothing-categories-paggiaro-francesco.jpg"
+                class="card-img-top"
+                alt="Vetements"
+              />
+              <!-- Crédit : Paggiaro Francesco, pexels-->
+              <div class="card-body">
+                <h5 class="card-title" style="font-size: 1.5rem">Vetements</h5>
+                <p class="card-text" style="font-size: 1rem">
+                  Noel arrive, couvrez-vous bien avec les vetements les plus
+                  chaud car le froid prepare son arrivée.
+                </p>
+                <a href="inscription.html"
+                  ><button
+                    href="./inscription.html"
+                    class="btn btn-outline-primary mt-2 test centerBtn"
+                    style="
+                      text-decoration: none !important;
+                      margin-top: 3rem !important;
+                      font-weight: bold;
+                      --bs-btn-color: rgb(14, 26, 159);
+                      --bs-btn-border-color: rgb(14, 26, 159);
+                      --bs-btn-hover-color: #fff;
+                      --bs-btn-hover-bg: rgb(14, 26, 159);
+                      --bs-btn-hover-border-color: rgb(14, 26, 159);
+                    "
+                  >
+                    En Savoir plus..
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Catégorie 2-->
+        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+          <div class="col">
+            <div
+              class="card h-100"
+              style="box-shadow: 0px 8px 12px 1px rgba(0, 0, 0, 0.6) !important"
+            >
+              <img
+                src="../img/accessoires_catégories_insta_photos.jpg"
+                class="card-img-top"
+                alt="Accessoires vetements"
+              />
+              <!-- Crédit: iStock, insta_photos-->
+              <div class="card-body">
+                <h5 class="card-title" style="font-size: 1.5rem">
+                  Accessoires
+                </h5>
+                <p class="card-text" style="font-size: 1rem">
+                  Soyez preparer, sortez vos accessoires de noel pour etre dans
+                  l'esprit.
+                </p>
+                <a href="inscription.html"
+                  ><button
+                    href="./inscription.html"
+                    class="btn btn-outline-primary mt-2 test centerBtn"
+                    style="
+                      text-decoration: none !important;
+                      margin-top: 3rem !important;
+                      font-weight: bold;
+                      --bs-btn-color: rgb(14, 26, 159);
+                      --bs-btn-border-color: rgb(14, 26, 159);
+                      --bs-btn-hover-color: #fff;
+                      --bs-btn-hover-bg: rgb(14, 26, 159);
+                      --bs-btn-hover-border-color: rgb(14, 26, 159);
+                    "
+                  >
+                    En Savoir plus..
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
   </section>
+  <!-- Information personnel-->
+
+  <section>
+  <h2 class="info_perso">Vos informations personnels</h2>
+  <form class="row g-3">
+    <div class="col-12">
+      <label for="inputAddress" class="form-label" style="margin-left: 2rem;">Adresse</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="Nom de rue" style="width: 50%; margin-left: 2rem;">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress2" class="form-label" style="margin-left: 2rem;">Code Postal</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" style="width: 50%; margin-left: 2rem">
+    </div>
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label" style="width: 70%; margin-left: 2rem;">City</label>
+      <input type="text" class="form-control" id="inputCity" style="width: 50%; margin-left: 2rem;">
+    </div>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label">State</label>
+      <select id="inputState" class="form-select">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="col-md-2">
+      <label for="inputZip" class="form-label">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </form>
+</section>
   <!--==============================================================================JAVASCRIPT=========================================================================================-->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>

@@ -30,3 +30,11 @@
   .historique{
     color:black;
   }
+
+  .info_perso{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
