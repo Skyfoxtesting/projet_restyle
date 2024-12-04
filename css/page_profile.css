@@ -1,3 +1,11 @@
+.bienvenue{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
 .img_profile{
     border-radius: 100%;
     margin-top: 5rem;
@@ -7,3 +15,18 @@
     margin-right: auto;
     margin-left: auto;
 }
+
+.nom_annonces{
+    font-family: Mulish, sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 2rem; 
+    padding-bottom: 2rem;
+    background-color: rgba(204, 204, 204, 0.603);
+    color: white;
+
+  }
+
+  .historique{
+    color:black;
+  }

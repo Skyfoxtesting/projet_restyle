@@ -141,6 +141,22 @@
               >Nos articles</a
             >
           </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active actioncolor"
+              aria-current="page"
+              href="../html/"
+              >FAQ</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active actioncolor"
+              aria-current="page"
+              href="favoris.html"
+              >Contact</a
+            >
+          </li>
           <li
             class="nav-link disabled trait"
             aria-disabled="true"
@@ -153,18 +169,44 @@
             type="search"
             placeholder="Rechercher"
             aria-label="Search"
+            style="font-weight: bold"
           />
-          <button class="btn btn-outline-success" type="submit">
+          <button
+            class="btn btn-outline-success"
+            type="submit"
+            style="
+              font-weight: bold;
+              --bs-btn-color: rgb(33, 37, 41);
+              --bs-btn-border-color: rgb(33, 37, 41);
+              --bs-btn-hover-color: #fff;
+              --bs-btn-hover-bg: rgb(33, 37, 41);
+              --bs-btn-hover-border-color: rgb(33, 37, 41);
+              --bs-btn-active-bg: rgb(33, 37, 41);
+              --bs-btn-active-border-color: rgb(33, 37, 41);
+            "
+          >
             Rechercher
           </button>
         </form>
-        <button class="btn btn-outline-dark btncnx" type="button">
+        <button
+          class="btn btn-outline-dark btncnx"
+          type="button"
+          style="
+            font-weight: bold;
+            display: flex;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+          "
+        >
           Connexion
         </button>
       </div>
     </div>
   </nav>
   <!--================================================================================Profile==========================================================================-->
+  <h1 class="bienvenue">Bienvenue dans votre page profile</h1>
   <img class="img_profile" src="../img/image_profil_getty_images.jpg" />
   <!--Email-->
   <div class="mb-3">
@@ -190,6 +232,8 @@
         justify-content: center;
         margin: auto;
         width: 70% !important;
+        border-width: initial;
+        --bs-border-color: #00000045;
       "
       id="exampleFormControlInput1"
       placeholder="name@example.com"
@@ -208,10 +252,10 @@
         margin: auto;
         width: 20rem !important;
       "
-      >Mot de passe</label
+      >Téléphone</label
     >
     <input
-      type="password"
+      type="email"
       class="form-control"
       style="
         text-align: center;
@@ -219,11 +263,17 @@
         justify-content: center;
         margin: auto;
         width: 70% !important;
+        border-width: initial;
+        --bs-border-color: #00000045;
       "
       id="exampleFormControlInput1"
-      placeholder="mot de passe"
+      placeholder="Téléphone"
     />
   </div>
+
+  <section class="nom_annonces">
+    <h2 class="historique">Votre Historique</h2>
+  </section>
   <!--==============================================================================JAVASCRIPT=========================================================================================-->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
