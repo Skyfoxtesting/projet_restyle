@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="CinéFlix - Découvrez les meilleurs films d'action et bien plus encore. Abonnez-vous pour une expérience cinématographique inoubliable."
+      content="ReStyle, vous cherchez des vetements ? des accessoires ? ou encore des docorations ? alors ReStyle est le site web pour vous ! que se soit des pulls jusqu'aux robes, des boucles d'oreilles aux sac à dos ou des pinces à cheuveux aux figurines ! "
     />
     <!-- Balises Open Graph pour les réseaux sociaux -->
     <meta
@@ -42,7 +42,7 @@
     <meta name="twitter:image" content="hero-action.jpg" />
     <meta name="twitter:site" content="@CinéFlix" />
 
-    <title>CinéFlix - Drama</title>
+    <title>ReStyle</title>
 
     <!-- Favicon -->
     <link rel="icon" href="../img/logo.png" />
@@ -135,68 +135,73 @@
                 >Acceuil
               </a>
             </li>
-            <li
-              class="nav-link disabled trait"
-              aria-disabled="true"
-              style="color: white"
-            >
-              |
-            </li>
             <li class="nav-item">
               <a
                 class="nav-link active actioncolor"
                 aria-current="page"
-                href="#"
+                href="catalogue_article.html"
                 >Nos articles</a
               >
             </li>
             <li class="nav-item">
               <a
-                class="nav-link active horrorcolor"
+                class="nav-link active actioncolor"
                 aria-current="page"
-                href="#"
-                >Horreur</a
+                href="../html/"
+                >FAQ</a
               >
             </li>
             <li class="nav-item">
               <a
-                class="nav-link active comediecolor"
+                class="nav-link active actioncolor"
                 aria-current="page"
-                href="#"
-                >Comédie</a
+                href="favoris.html"
+                >Contact</a
               >
             </li>
-            <li class="nav-item">
-              <a class="nav-link active scificolor" aria-current="page" href="#"
-                >Science-Fiction</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active dramacolor" aria-current="page" href="#"
-                >Drama</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link active romancecolor"
-                aria-current="page"
-                href="#"
-                >Romance</a
-              >
-            </li>
+            <li
+              class="nav-link disabled trait"
+              aria-disabled="true"
+              style="color: white"
+            ></li>
           </ul>
           <form class="d-flex" role="search">
             <input
               class="form-control me-2"
               type="search"
-              placeholder="Search"
+              placeholder="Rechercher"
               aria-label="Search"
+              style="font-weight: bold"
             />
-            <button class="btn btn-outline-success" type="submit">
-              Search
+            <button
+              class="btn btn-outline-success"
+              type="submit"
+              style="
+                font-weight: bold;
+                --bs-btn-color: rgb(33, 37, 41);
+                --bs-btn-border-color: rgb(33, 37, 41);
+                --bs-btn-hover-color: #fff;
+                --bs-btn-hover-bg: rgb(33, 37, 41);
+                --bs-btn-hover-border-color: rgb(33, 37, 41);
+                --bs-btn-active-bg: rgb(33, 37, 41);
+                --bs-btn-active-border-color: rgb(33, 37, 41);
+              "
+            >
+              Rechercher
             </button>
           </form>
-          <button class="btn btn-outline-dark btncnx" type="button">
+          <button
+            class="btn btn-outline-dark btncnx"
+            type="button"
+            style="
+              font-weight: bold;
+              display: flex;
+              margin-right: auto;
+              margin-left: auto;
+              margin-top: 2rem;
+              margin-bottom: 2rem;
+            "
+          >
             Connexion
           </button>
         </div>
@@ -204,58 +209,399 @@
     </nav>
     <!------------------------------------------------------------- FIN NAVBAR --------------------------------------------------------------------------------------------->
     <section class="arriere_plan">
-      <div class="font_noir">
+      <!--Crédit: freepik-->
+      <div class="font_noir" style="padding-top: 5rem; padding-bottom: 2rem">
         <h1>ReStyle</h1>
-        <h2 class="description_genre">Vous avez</h2>
+        <h2 class="description" style="margin-top: 5rem">
+          Vous avez besoin de vetements, d'accessoires et de décorations mais
+          tout est trop chère partout où vous cherchez ? Alors ne perdez plus de
+          temps à chercher car ReStyle est le site pour vous et vos économies !
+        </h2>
 
-        <a href="inscription.html"
+        <a href="inscription.html" style="margin-bottom: 3rem"
           ><button
             href="./inscription.html"
             class="btn btn-outline-primary mt-2 test centerBtn"
             style="
+              text-decoration: none;
               margin-top: 3rem !important;
+              margin-bottom: 3rem;
               font-weight: bold;
-              --bs-btn-color: rgb(70, 159, 14);
-              --bs-btn-border-color: rgb(70, 159, 14);
-              --bs-btn-hover-color: #fff;
-              --bs-btn-hover-bg: rgb(70, 159, 14);
-              --bs-btn-hover-border-color: rgb(70, 159, 14);
+              --bs-btn-color: rgb(255, 255, 255);
+              --bs-btn-border-color: rgb(255, 255, 255);
+              --bs-btn-hover-color: #000000;
+              --bs-btn-hover-bg: rgb(255, 255, 255);
+              --bs-btn-hover-border-color: rgb(255, 255, 255);
             "
           >
-            Je m'abonne
+            En Savoir plus..
           </button></a
         >
       </div>
     </section>
-    <h2
-      class="titre_section"
-      style="background-color: rgba(251, 251, 251, 0.878)"
-    >
-      Annonces
-    </h2>
+    <h2 class="titre_section">Annonces</h2>
+    <!-- Annonce 1 -->
     <section>
-      <div class="font_noir">
-        <h3 class="nom_annonces">Black Friday</h3>
-        <img
-          src="../img/black-friday-tamanna-rumee.jpg"
-          class="image_annonce_1"
-        />
-        <p class="description">
-          C'est le black friday, profiter de nos réduction à moins 50% avant la
-          fin !
-        </p>
+      <div data-aos="fade-right">
+        <div
+          class="font_noir"
+          style="padding-bottom: 2rem; width: 70%; display: block; margin: auto"
+        >
+          <h3 class="nom_annonces">Black Friday</h3>
+          <img
+            src="../img/black-friday-tamanna-rumee.jpg"
+            class="image_annonce_1 img-fluid"
+            style="padding-top: 2rem; padding-bottom: 2rem"
+          />
+          <!-- Crédit: tamanna Rumee, Pexels-->
+          <p
+            class="description"
+            style="padding-top: 2rem; padding-bottom: 2rem"
+          >
+            C'est le black friday, profiter de nos réduction à moins 50% avant
+            la fin !
+          </p>
+
+          <a href="inscription.html" style="margin-bottom: 3rem"
+            ><button
+              href="./inscription.html"
+              class="btn btn-outline-primary mt-2 test centerBtn"
+              style="
+                text-decoration: none;
+                margin-top: 3rem !important;
+                margin-bottom: 3rem;
+                font-weight: bold;
+                --bs-btn-color: rgb(236, 57, 57);
+                --bs-btn-border-color: rgb(236, 57, 57);
+                --bs-btn-hover-color: #000000;
+                --bs-btn-hover-bg: rgb(236, 57, 57);
+                --bs-btn-hover-border-color: rgb(236, 57, 57);
+              "
+            >
+              Ajouter aux favoris
+            </button></a
+          >
+
+          <a href="inscription.html"
+            ><button
+              href="./inscription.html"
+              class="btn btn-outline-primary mt-2 test centerBtn"
+              style="
+                text-decoration: none !important;
+                margin-top: 3rem !important;
+                font-weight: bold;
+                --bs-btn-color: rgb(14, 26, 159);
+                --bs-btn-border-color: rgb(14, 26, 159);
+                --bs-btn-hover-color: #fff;
+                --bs-btn-hover-bg: rgb(14, 26, 159);
+                --bs-btn-hover-border-color: rgb(14, 26, 159);
+              "
+            >
+              En Savoir plus..
+            </button></a
+          >
+        </div>
       </div>
     </section>
+    <!-- Annonce 2-->
     <section>
-      <div class="font_noir">
-        <h3 class="nom_annonces" style="margin-top: 1.5rem">Les soldes</h3>
-        <img src="../img/vetement-chaud-ioanamtc.jpg" class="image_annonce_1" />
-        <p class="description">
-          L'hiver est permit nous, il faut se tenir bien chaud et quoi de mieux
-          que nos vetements et accessoires en vedettes !
-        </p>
+      <div data-aos="fade-left">
+        <div
+          class="font_noir"
+          style="padding-bottom: 2rem; width: 70%; display: block; margin: auto"
+        >
+          <h3 class="nom_annonces" style="margin-top: 5rem">Les soldes</h3>
+          <img
+            src="../img/vetement-chaud-ioanamtc.jpg"
+            class="image_annonce_1 img-fluid"
+          />
+          <!-- Crédit: Ioana Motoc, Pexels-->
+          <p
+            class="description"
+            style="padding-top: 2rem; padding-bottom: 2rem"
+          >
+            L'hiver est permit nous, il faut se tenir bien chaud et quoi de
+            mieux que nos vetements et accessoires en vedettes !
+          </p>
+
+          <a href="inscription.html" style="margin-bottom: 3rem"
+            ><button
+              href="./inscription.html"
+              class="btn btn-outline-primary mt-2 test centerBtn"
+              style="
+                text-decoration: none;
+                margin-top: 3rem !important;
+                margin-bottom: 3rem;
+                font-weight: bold;
+                --bs-btn-color: rgb(236, 57, 57);
+                --bs-btn-border-color: rgb(236, 57, 57);
+                --bs-btn-hover-color: #000000;
+                --bs-btn-hover-bg: rgb(236, 57, 57);
+                --bs-btn-hover-border-color: rgb(236, 57, 57);
+              "
+            >
+              Ajouter aux favoris
+            </button></a
+          >
+
+          <a href="inscription.html"
+            ><button
+              href="./inscription.html"
+              class="btn btn-outline-primary mt-2 test centerBtn"
+              style="
+                text-decoration: none !important;
+                margin-top: 3rem !important;
+                font-weight: bold;
+                --bs-btn-color: rgb(14, 26, 159);
+                --bs-btn-border-color: rgb(14, 26, 159);
+                --bs-btn-hover-color: #fff;
+                --bs-btn-hover-bg: rgb(14, 26, 159);
+                --bs-btn-hover-border-color: rgb(14, 26, 159);
+              "
+            >
+              En Savoir plus..
+            </button></a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- Annonce 2-->
+    <section>
+      <div data-aos="fade-right">
+        <div
+          class="font_noir"
+          style="padding-bottom: 2rem; width: 70%; display: block; margin: auto"
+        >
+          <h3 class="nom_annonces" style="margin-top: 5rem">Noel est proche</h3>
+          <img
+            src="../img/noel-valeriya.jpg"
+            class="image_annonce_1 img-fluid"
+          />
+          <!-- Crédit: Valeriya Boltena, Pexels-->
+          <p
+            class="description"
+            style="padding-top: 2rem; padding-bottom: 2rem"
+          >
+            Le temps de fêter noel se rapproche à petit, préparer vos
+            décorations et vos cadeaux pour proches avec nos differents produits
+            !
+          </p>
+
+          <a href="inscription.html" style="margin-bottom: 3rem"
+            ><button
+              href="./inscription.html"
+              class="btn btn-outline-primary mt-2 test centerBtn"
+              style="
+                text-decoration: none;
+                margin-top: 3rem !important;
+                margin-bottom: 3rem;
+                font-weight: bold;
+                --bs-btn-color: rgb(236, 57, 57);
+                --bs-btn-border-color: rgb(236, 57, 57);
+                --bs-btn-hover-color: #000000;
+                --bs-btn-hover-bg: rgb(236, 57, 57);
+                --bs-btn-hover-border-color: rgb(236, 57, 57);
+              "
+            >
+              Ajouter aux favoris
+            </button></a
+          >
+
+          <a href="inscription.html"
+            ><button
+              href="./inscription.html"
+              class="btn btn-outline-primary mt-2 test centerBtn"
+              style="
+                text-decoration: none !important;
+                margin-top: 3rem !important;
+                font-weight: bold;
+                --bs-btn-color: rgb(14, 26, 159);
+                --bs-btn-border-color: rgb(14, 26, 159);
+                --bs-btn-hover-color: #fff;
+                --bs-btn-hover-bg: rgb(14, 26, 159);
+                --bs-btn-hover-border-color: rgb(14, 26, 159);
+              "
+            >
+              En Savoir plus..
+            </button></a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- ======================================================Les Catégories=============================================================== -->
+    <section>
+      <h2 class="titre_section">Les Catégories</h2>
+      <!-- Catégorie 1-->
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+          <div class="col">
+            <div
+              class="card h-100"
+              style="box-shadow: 0px 8px 12px 1px rgba(0, 0, 0, 0.6) !important"
+            >
+              <img
+                src="../img/clothing-categories-paggiaro-francesco.jpg"
+                class="card-img-top"
+                alt="Vetements"
+              />
+              <!-- Crédit : Paggiaro Francesco, pexels-->
+              <div class="card-body">
+                <h5 class="card-title" style="font-size: 1.5rem">Vetements</h5>
+                <p class="card-text" style="font-size: 1rem">
+                  Noel arrive, couvrez-vous bien avec les vetements les plus
+                  chaud car le froid prepare son arrivée.
+                </p>
+                <a href="inscription.html"
+                  ><button
+                    href="./inscription.html"
+                    class="btn btn-outline-primary mt-2 test centerBtn"
+                    style="
+                      text-decoration: none !important;
+                      margin-top: 3rem !important;
+                      font-weight: bold;
+                      --bs-btn-color: rgb(14, 26, 159);
+                      --bs-btn-border-color: rgb(14, 26, 159);
+                      --bs-btn-hover-color: #fff;
+                      --bs-btn-hover-bg: rgb(14, 26, 159);
+                      --bs-btn-hover-border-color: rgb(14, 26, 159);
+                    "
+                  >
+                    En Savoir plus..
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Catégorie 2-->
+        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+          <div class="col">
+            <div
+              class="card h-100"
+              style="box-shadow: 0px 8px 12px 1px rgba(0, 0, 0, 0.6) !important"
+            >
+              <img
+                src="../img/accessoires_catégories_insta_photos.jpg"
+                class="card-img-top"
+                alt="Accessoires vetements"
+              />
+              <!-- Crédit: iStock, insta_photos-->
+              <div class="card-body">
+                <h5 class="card-title" style="font-size: 1.5rem">
+                  Accessoires
+                </h5>
+                <p class="card-text" style="font-size: 1rem">
+                  Soyez preparer, sortez vos accessoires de noel pour etre dans
+                  l'esprit.
+                </p>
+                <a href="inscription.html"
+                  ><button
+                    href="./inscription.html"
+                    class="btn btn-outline-primary mt-2 test centerBtn"
+                    style="
+                      text-decoration: none !important;
+                      margin-top: 3rem !important;
+                      font-weight: bold;
+                      --bs-btn-color: rgb(14, 26, 159);
+                      --bs-btn-border-color: rgb(14, 26, 159);
+                      --bs-btn-hover-color: #fff;
+                      --bs-btn-hover-bg: rgb(14, 26, 159);
+                      --bs-btn-hover-border-color: rgb(14, 26, 159);
+                    "
+                  >
+                    En Savoir plus..
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Catégorie 3-->
+        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+          <div class="col">
+            <div
+              class="card h-100"
+              style="box-shadow: 0px 8px 12px 1px rgba(0, 0, 0, 0.6) !important"
+            >
+              <img
+                src="../img/decoration-noel-categories-serena-koi.jpeg"
+                class="card-img-top"
+                alt="Decorations vetement"
+              />
+              <div class="card-body">
+                <h5 class="card-title" style="font-size: 1.5rem">
+                  Decorations
+                </h5>
+                <p class="card-text" style="font-size: 1rem">
+                  Preparez-vous pour noel, sortez vos décorations pour que le
+                  père noel ne vous manque pas.
+                </p>
+                <a href="inscription.html"
+                  ><button
+                    href="./inscription.html"
+                    class="btn btn-outline-primary mt-2 test centerBtn"
+                    style="
+                      text-decoration: none !important;
+                      margin-top: 3rem !important;
+                      font-weight: bold;
+                      --bs-btn-color: rgb(14, 26, 159);
+                      --bs-btn-border-color: rgb(14, 26, 159);
+                      --bs-btn-hover-color: #fff;
+                      --bs-btn-hover-bg: rgb(14, 26, 159);
+                      --bs-btn-hover-border-color: rgb(14, 26, 159);
+                    "
+                  >
+                    En Savoir plus..
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--La NewsLetter-->
+    <section>
+      <h2 class="titre_section">Newsletter</h2>
+      <h2
+        class="description"
+        style="color: #000000; margin-top: 4rem; margin-bottom: 4rem"
+      >
+        Vous voulez etre aux courant de nos dernières offres, réductions et
+        nouveautés ? alors ne tardez pas et insérer votre adresse email pour que
+        vous puissiez etre notifiez de nos annonces !
+      </h2>
+      <div class="mb-3">
+        <label
+          for="exampleFormControlInput1"
+          class="form-label"
+          style="
+            font-size: 1.5rem;
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            width: 20rem !important;
+          "
+          >Adresse Email</label
+        >
+        <input
+          type="email"
+          class="form-control"
+          style="
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            width: 70% !important;
+          "
+          id="exampleFormControlInput1"
+          placeholder="name@example.com"
+        />
       </div>
     </section>
     <!--==============================================================================JAVASCRIPT=========================================================================================-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
