@@ -135,21 +135,35 @@
                 >Acceuil
               </a>
             </li>
-            <li
-              class="nav-link disabled trait"
-              aria-disabled="true"
-              style="color: white"
-            >
-              |
+            <li class="nav-item">
+              <a
+                class="nav-link active actioncolor"
+                aria-current="page"
+                href="catalogue_article.html"
+                >Nos articles</a
+              >
             </li>
             <li class="nav-item">
               <a
                 class="nav-link active actioncolor"
                 aria-current="page"
-                href="#"
-                >Nos articles</a
+                href="../html/"
+                >FAQ</a
               >
             </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active actioncolor"
+                aria-current="page"
+                href="favoris.html"
+                >Contact</a
+              >
+            </li>
+            <li
+              class="nav-link disabled trait"
+              aria-disabled="true"
+              style="color: white"
+            ></li>
           </ul>
           <form class="d-flex" role="search">
             <input
@@ -157,12 +171,37 @@
               type="search"
               placeholder="Rechercher"
               aria-label="Search"
+              style="font-weight: bold"
             />
-            <button class="btn btn-outline-success" type="submit">
+            <button
+              class="btn btn-outline-success"
+              type="submit"
+              style="
+                font-weight: bold;
+                --bs-btn-color: rgb(33, 37, 41);
+                --bs-btn-border-color: rgb(33, 37, 41);
+                --bs-btn-hover-color: #fff;
+                --bs-btn-hover-bg: rgb(33, 37, 41);
+                --bs-btn-hover-border-color: rgb(33, 37, 41);
+                --bs-btn-active-bg: rgb(33, 37, 41);
+                --bs-btn-active-border-color: rgb(33, 37, 41);
+              "
+            >
               Rechercher
             </button>
           </form>
-          <button class="btn btn-outline-dark btncnx" type="button">
+          <button
+            class="btn btn-outline-dark btncnx"
+            type="button"
+            style="
+              font-weight: bold;
+              display: flex;
+              margin-right: auto;
+              margin-left: auto;
+              margin-top: 2rem;
+              margin-bottom: 2rem;
+            "
+          >
             Connexion
           </button>
         </div>
