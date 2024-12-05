@@ -1,0 +1,51 @@
+body{
+    background-color:darkblue;
+}
+
+h2{
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 5%;
+    color:white
+}
+
+section{
+    background-color: lightgray;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 65%;
+}
+
+
+
+@media only screen and (max-width : 960px) {
+    h2{
+        text-align: center;
+        font-size: 3rem;
+        margin-bottom: 5%;
+        color:white;
+    }
+    a{
+        text-align: center;
+        text-decoration: none;
+        margin-right: 75%;
+    }
+}
+
+@media only screen and (max-width : 320px) {
+    h2{
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 5%;
+        color:white;
+    }
+    a{
+        text-align: center;
+        text-decoration: none;
+        margin-right: 75%;
+    }
+}

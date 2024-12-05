@@ -1,0 +1,120 @@
+body{
+    background-color:darkblue;
+}
+
+h2{
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 5%;
+    color:white
+}
+
+section{
+    background-color: lightgray;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+.label_contact_mp{
+    margin-right: 80%;
+    font-size: 2rem;
+}
+
+.faq_div_mp{
+    margin-top: 10%;
+}
+
+.faq_h2_mp{
+    color:black;
+}
+
+ul{
+    list-style: none;
+    margin-right: 10%;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 3rem;
+    color: blue;
+}
+
+p{
+    text-align: center;
+    text-decoration: none;
+    font-size: 3rem;
+    color:blue
+}
+
+.contact_h2_mp{
+    color:black;
+}
+
+.img_contact_mp{
+    max-height: 100px;
+}
+
+footer{
+    background-color: black;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+@media only screen and (max-width : 960px) {
+    h2{
+        text-align: center;
+        font-size: 3rem;
+        margin-bottom: 5%;
+        color:white;
+    }
+    a{
+        text-align: center;
+        font-size: 95%;
+    }
+
+    p{
+        text-align: center;
+        font-size: 95%;
+    }
+
+    .img_contact_mp{
+        max-height: 75px;
+    }
+
+    .a_footer{
+        margin-left: 25%;
+        text-align: center;
+        font-size: 95%;
+    }
+}
+
+@media only screen and (max-width : 320px) {
+    h2{
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 5%;
+        color:white;
+    }
+    a{
+        text-align: center;
+        font-size: 80%;
+    }
+
+    .img_contact_mp{
+        max-height: 50px;
+    }
+
+    p{
+        text-align: center;
+        font-size: 95%;
+    }
+
+    .a_footer{
+        margin-left: 25%;
+        text-align: center;
+        font-size: 80%;
+    }
+}
+
+
+

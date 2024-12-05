@@ -20,7 +20,8 @@ section{
     margin-left: 15%;
 }
 
-.img_favoris_mp{
+.image_favoris_mp{
     margin-top: 10%;
     margin-bottom: 10%;
+    max-height: 35%;
 }
