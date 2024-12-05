@@ -25,3 +25,53 @@ section{
     margin-bottom: 10%;
     max-height: 35%;
 }
+
+footer{
+    background-color: black;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.a_footer{
+    margin-left: 25%;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width : 960px) {
+    h2{
+        text-align: center;
+        font-size: 3rem;
+        margin-bottom: 5%;
+        color:white;
+    }
+    a{
+        text-align: center;
+        font-size: 95%;
+    }
+
+    .a_footer{
+        margin-left: 25%;
+        text-align: center;
+        font-size: 95%;
+    }
+}
+
+@media only screen and (max-width : 320px) {
+    h2{
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 5%;
+        color:white;
+    }
+    a{
+        text-align: center;
+        font-size: 80%;
+    }
+
+    .a_footer{
+        margin-left: 25%;
+        text-align: center;
+        font-size: 80%;
+    }
+}

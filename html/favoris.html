@@ -8,6 +8,114 @@
     <link href="../css/favoris.css" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <nav
+      class="navbar bg-white navbar-expand-lg bg-body-tertiary navbar-custom"
+      data-bs-theme="white"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="../img/logo restyle.jpg"
+            alt="Bootstrap"
+            width="auto"
+            height="50"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../html/page_acceuil_restyle_index.html"
+                >Acceuil
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active actioncolor"
+                aria-current="page"
+                href="catalogue_article.html"
+                >Nos articles</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active actioncolor"
+                aria-current="page"
+                href="../html/"
+                >FAQ</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active actioncolor"
+                aria-current="page"
+                href="favoris.html"
+                >Contact</a
+              >
+            </li>
+            <li
+              class="nav-link disabled trait"
+              aria-disabled="true"
+              style="color: white"
+            ></li>
+          </ul>
+<form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Rechercher"
+              aria-label="Search"
+              style="font-weight: bold"
+            />
+            <button
+              class="btn btn-outline-success"
+              type="submit"
+              style="
+                font-weight: bold;
+                --bs-btn-color: rgb(33, 37, 41);
+                --bs-btn-border-color: rgb(33, 37, 41);
+                --bs-btn-hover-color: #fff;
+                --bs-btn-hover-bg: rgb(33, 37, 41);
+                --bs-btn-hover-border-color: rgb(33, 37, 41);
+                --bs-btn-active-bg: rgb(33, 37, 41);
+                --bs-btn-active-border-color: rgb(33, 37, 41);
+              "
+            >
+              Rechercher
+            </button>
+          </form>
+          <button
+            class="btn btn-outline-dark btncnx"
+            type="button"
+            style="
+              font-weight: bold;
+              display: flex;
+              margin-right: auto;
+              margin-left: auto;
+              margin-top: 2rem;
+              margin-bottom: 2rem;
+            "
+          >
+            Connexion
+          </button>
+        </div>
+      </div>
+    </nav>
+    </header>
     <h2>Favoris</h2>
     <section>
         <div class="container text-center ">
@@ -88,7 +196,8 @@
         </div>
     </section>
     <footer>
-
+        <a href="mention.html" class="a_footer">Mention Légal</a>
+        <a href="contact.html" class="a_footer">Contact</a>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
