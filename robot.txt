@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /mentionlegales politiquedeco
+
+Sitemap: https://www.ReStyle.fr/sitemap.xml
