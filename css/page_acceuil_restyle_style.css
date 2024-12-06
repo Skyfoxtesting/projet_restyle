@@ -166,4 +166,27 @@ body {
   .font_noir{
     background-color: rgba(0, 0, 0, 0.6);
   }
-
+/*==============================================================FOOTER============================================================*/
+.a_footer{
+text-align: center;
+text-decoration: none;
+font-size: 3rem;
+color: blue;
+}
+footer{
+    background-color: black;
+}
+@media only screen and (max-width : 960px) {           
+    .a_footer{
+    margin-left: 25%;
+    text-align: center;
+    font-size: 95%;
+}
+}
+@media only screen and (max-width : 320px) {           
+    .a_footer{
+    margin-left: 25%;
+    text-align: center;
+    font-size: 80%;
+}
+}
