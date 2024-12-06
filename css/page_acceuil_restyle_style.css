@@ -170,7 +170,9 @@ body {
 .a_footer{
 text-align: center;
 text-decoration: none;
-font-size: 3rem;
+font-size: 2rem;
+margin-right: 2rem;
+margin-left: 2rem;
 color: blue;
 }
 footer{
